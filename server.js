@@ -14,8 +14,7 @@ app.use(express.json());
 
 
 // Database connection
-const DB_URI = 'mongodb+srv://goutham09871:zVCC6rotsPvkSLi6@cluster0.vog1c.mongodb.net/eCommerse';
-
+const DB_URI = 'mongodb+srv://mehakkapila18:6bvAcDkiq0RDki7t@brown-living.prx8k.mongodb.net/brownLiving'
 mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('Error connecting to MongoDB:', err));
